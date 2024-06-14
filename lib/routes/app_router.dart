@@ -1,4 +1,5 @@
 import '../core/config.dart';
+import '../screens/chat_box_screen.dart';
 import '../screens/home.dart';
 import '../screens/screen_navigate.dart';
 
@@ -12,5 +13,6 @@ class AppRouter extends _$AppRouter {
   List<AutoRoute> get routes => [
         AutoRoute(path: '/home', page: HomeRoute.page, initial: true),
         AutoRoute(path: '/navigate', page: NavigateRoute.page),
+        AutoRoute(path: '/chatBoxScreen', page: ChatBoxRoute.page),
       ];
 }
